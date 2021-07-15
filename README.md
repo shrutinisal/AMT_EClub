@@ -15,3 +15,5 @@ Worked on the MAPS Dataset of size around 15 GB. To extract information about fr
  We chose CQT over STFT because CQT has logarithmically spaced bins.This is advantageous as the harmonic pattern stays
 constant for each note, or is pitch invariant, which makes training the neural network
 much easier.
+
+Note:Extract the MAPS dataset completely before preprocessing.
